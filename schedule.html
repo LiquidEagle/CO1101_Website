@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <script src="config.js"></script>
+</head>
+
+<body>
+<h1>TechCon 2023</h1>
+
+
+
+
+
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="schedule.html">Schedule</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="speakers.html">Speakers</a></li>
+    <div class="dropdown">
+        <button class="dropbtn">Account
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="login.html">Login</a>
+          <a href="register.html">Register</a>
+        </div>
+      </div> 
+</ul>
+</body>
+
+<section>
+<article class="dropdown">
+  <label for="day">Filter by Day:</label>
+  <select id="day" onchange="filterTable()">
+    <option value="all">All</option>
+    <option value="MONDAY">Monday</option>
+    <option value="TUESDAY">Tuesday</option>
+    <option value="WEDNESDAY">Wednesday</option>
+    <option value="THURSDAY">Thursday</option>
+    <option value="FRIDAY">Friday</option>
+  </select>
+</article>
+
+
+<article class="schedule">
+  <table id="timetable">
+    <thead>
+      <tr>
+        <th>DAY</th>
+        <th>10:00</th>
+        <th>12:00</th>
+        <th>14:00</th>
+        <th>16:00</th>
+        <th>18:00</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th>MONDAY</th>
+        <td>JOHN</td>
+        <td>JAMES</td>
+        <td>LARA</td>
+      </tr>
+
+      <tr>
+        <th>TUESDAY</th>
+        <td>JOHN</td>
+        <td>JAMES</td>
+        <td>LARA</td>
+      </tr>
+
+      <tr>
+        <th>WEDNESDAY</th>
+        <td>JOHN</td>
+        <td>JAMES</td>
+        <td>LARA</td>
+      </tr>
+
+      <tr>
+        <th>THURSDAY</th>
+        <td>JOHN</td>
+        <td>JAMES</td>
+        <td>LARA</td>
+      </tr>
+
+      <tr>
+        <th>FRIDAY</th>
+        <td>JOHN</td>
+        <td>JAMES</td>
+        <td>LARA</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+</section>
+
+
+
+
+
+
+<!-- Footer containing copyright message -->
+<footer>
+  <p class="copyright">© TECHCON 2023</p>
+</footer>

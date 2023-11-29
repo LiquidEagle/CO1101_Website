@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Speakers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <script src="config.js"></script>
+</head>
+
+<body>
+<h1>TechCon 2023</h1>
+
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="schedule.html">Schedule</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="speakers.html">Speakers</a></li>
+    <div class="dropdown">
+        <button class="dropbtn">Account
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="login.html">Login</a>
+          <a href="register.html">Register</a>
+        </div>
+      </div> 
+</ul>
+
+<section>
+<P><b>This is the page showcasing our speakers, click on a image to see more information about the speaker!</b></P>
+</section>
+
+<!-- This section contains all the boxes and information about speakers. -->
+<!-- This utilises the .box in css and the showInfo() function contained in the config.js file. showInfo() takes in three inputs. -->
+<div class="box">
+  <img src="img/rohan.jpg" alt="Rohan Sundeep" onclick="showInfo('SOFTWARE ENGINEER - EVENT APP DEVELOPER','Rohan Sundeep','Designs, develops, and maintains a dedicated event application for TechCon 2023.<br><br>Collaborates with UX/UI designers to create an intuitive and user-friendly interface for attendees.<br><br>Implements features such as agenda scheduling, interactive maps, and real-time updates to enhance the attendee experience.' )">
+  <p class="box_description"></p>
+</div>
+
+<div class="box">
+  <img src="img/jeremy_smith.jpg" alt="Jeremy Smith" onclick="showInfo('REGISTRATION AND ATTENDEE SERVICES SPECIALIST','Jeremy Smith','Handles the conference registration process, including online registration systems.<br><br>Provides support to attendees with inquiries related to registration, logistics, and general information.<br><br>Manages on-site registration and ensures a smooth check-in experience for attendees.' )">
+  <p class="box_description"></p>
+</div>
+
+<div class="box">
+  <img src="img/arvind.jpeg" alt="Arvind Arlet" onclick="showInfo('EVENT COORDINATOR','Arvind Arlet','Responsible for overall planning, coordination, and seamless execution of TechCon 2023.<br><br>Manages a team of professionals and ensures alignment with the conference objectives.<br><br>Oversees logistics, scheduling, and communication with speakers, sponsors, and attendees.' )">
+  <p class="box_description"></p>
+</div>
+
+<div class="box">
+  <img src="img/Dhruv.avif" alt="Dhruv Kumar" onclick="showInfo('REGISTRATION SPECIALIST','Dhruv Kumar','Manages the conference registration process, utilizing online registration systems.<br><br>Provides dedicated support to attendees, addressing inquiries related to registration, logistics, and general information.<br><br>Facilitates on-site registration, ensuring a streamlined check-in experience for all attendees.' )">
+  <p class="box_description"></p>
+</div>
+
+<div class="box">
+  <img src="img/xavier.jpg" alt="Xavier Johnson" onclick="showInfo('TECHNICAL SUPPORT SPECIALIST','Xavier Johnson','Manages and provides technical support for all audio-visual equipment and IT infrastructure during the conference.<br><br>Coordinates with vendors and ensures seamless operation of technical aspects, including live streaming and recording.' )">
+  <p class="box_description"></p>
+</div>
+
+<div class="box">
+  <img src="img/thomas.jpg" alt="Thomas Poole" onclick="showInfo('DATA ANALYST','Thomas Poole','Collects and analyzes data related to conference attendance, participant feedback, and engagement metrics.<br><br>Provides insights to the organizing team for continuous improvement and data-driven decision-making.' )">
+  <p class="box_description"></p>
+</div>
+
+</body>
+
+<!-- Footer containing copyright message -->
+<footer>
+  <p class="copyright">© TECHCON 2023</p>
+</footer>
